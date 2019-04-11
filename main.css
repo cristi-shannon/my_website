@@ -11,7 +11,8 @@
 }
 
 .jumbotron {
-  background-image:url('http://orig05.deviantart.net/957b/f/2013/304/c/6/spirited_away____bath_house__gif__by_thatcrookedmind-d6lxoz0.gif');
+  background-image: url('https://images.unsplash.com/photo-1477554193778-9562c28588c0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80');
+  background-color: darkseagreen;
   height: 500px;
   background-repeat: no-repeat;
   background-size: cover;

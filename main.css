@@ -1,3 +1,6 @@
+:root {
+    --color: rgba(0,0,0,.2);
+}
 .nav a {
   color: #5a5a5a;
   font-size: 11px;
@@ -19,25 +22,29 @@
 }
 
 .jumbotron .container {
-  position: relative;
-  top:100px;
+    position: absolute;
+    left: 70px;
+    top:160px;
+    width: 45%;
+    background-color:var(--color);
 }
 
 .jumbotron h1 {
   color: #fff;
   font-size: 48px;  
-  font-family: 'Shift', sans-serif;
+  font-family: 'Ebrima', sans-serif;
   font-weight: bold;
 }
 
 .jumbotron p {
   font-size: 20px;
   color: #fff;
+    font-weight: 400;
 }
 
 .neighborhood-guides {
     background-color: #efefef;
-    border-bottom: 1px solid #dbdbdb;
+    
 }
 .neighborhood-guides h2 {
     color: #393c3d;
@@ -49,16 +56,47 @@
     margin-bottom: 13px;
 }
 
-.learn-more {
+.contact .social {
   background-color: #f7f7f7;
+  justify-content: center;
 }
 
-.learn-more h3 {
-  font-family: 'Shift', sans-serif;
+.contact h3 {
+  font-family: 'Ebrima', sans-serif;
   font-size: 18px;
   font-weight: bold;
 }
 
-.learn-more a {
-  color: #000000;
+.contact a {
+  color: forestgreen;
+    text-decoration: none;
+   
+}
+
+.fa {
+    color: forestgreen;
+    padding-top: 30px;
+    width: 30px;
+    font-size: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+.spacing {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.card-text {
+    padding-top: 10px;
+}
+
+.card-body {
+    background-color: #E4EDBC;
 }

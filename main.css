@@ -78,13 +78,13 @@
 }
 
 .contact a {
-  color: forestgreen;
+  color: #36422D;
     text-decoration: none;
    
 }
 
 .fa {
-    color: forestgreen;
+    color: #36422D;
     padding-top: 30px;
     width: 30px;
     font-size: 30px;
@@ -95,6 +95,8 @@
 
 .fa:hover {
     opacity: 0.7;
+    color: #36422D;
+    text-decoration: none;
 }
 
 
@@ -108,5 +110,47 @@
 }
 
 .card-body {
-    background-color: #E4EDBC;
+    
+}
+
+#tech-writing {
+    background-color: #9DC183;
+}
+
+#content-writing
+{
+    background-color: #89A872;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #36422D;
+    border-color: #36422D;
+    text-decoration: none;
+}
+
+.btn-primary:hover {
+    opacity: 0.7;
+    background-color: #36422D;
+    border-color: #36422D;
+    text-decoration: none;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #36422D;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }

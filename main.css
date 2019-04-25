@@ -7,20 +7,21 @@
   font-weight: bold;
   padding: 14px 10px;
   text-transform: uppercase;
-    text-decoration: none;
+  text-decoration: none;
+    position: static;
 }
 
 #nav-bar a {
-    color: #5a5a5a;
+  color: #5a5a5a;
   font-size: 11px;
   font-weight: bold;
   padding: 14px 10px;
   text-transform: uppercase;
-    text-decoration: none;
+  text-decoration: none;
 }
 
 #nav-bar a:hover {
-    opacity: 0.7;
+  opacity: 0.7;
 }
 
 .nav li {
@@ -33,6 +34,9 @@
   height: 500px;
   background-repeat: no-repeat;
   background-size: cover;
+    position: static;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .jumbotron .container {
@@ -46,11 +50,11 @@
 }
 
 #main-page {
-    position: absolute;
-    left: 70px;
-    top:160px;
-    width: 45%;
-    background-color:var(--color);
+  position: fixed;
+  left: 70px;
+  top:160px;
+  width: 45%;
+  background-color:var(--color);
 }
 
 .jumbotron h1 {
@@ -63,21 +67,21 @@
 .jumbotron p {
   font-size: 20px;
   color: #fff;
-    font-weight: 400;
+  font-weight: 400;
 }
 
 .neighborhood-guides {
-    background-color: #efefef;
+  background-color: #efefef;
     
 }
 .neighborhood-guides h2 {
-    color: #393c3d;
-    font-size: 24px;
+  color: #393c3d;
+  font-size: 24px;
 }
 
 .neighborhood-guides p {
-    font-size: 15px;
-    margin-bottom: 13px;
+  font-size: 15px;
+  margin-bottom: 13px;
 }
 
 .contact .social {
@@ -93,7 +97,7 @@
 
 .contact a {
   color: #36422D;
-    text-decoration: none;
+  text-decoration: none;
    
 }
 
@@ -128,12 +132,13 @@
 }
 
 #tech-writing {
-    background-color: #9DC183;
+    background-color: #D5C5C8;
+    box-shadow: 5px 5px 5px grey;
 }
 
-#content-writing
-{
+#content-writing {
     background-color: #89A872;
+    box-shadow: 5px 5px 5px grey;
 }
 
 .btn-primary {
@@ -141,14 +146,22 @@
     background-color: #36422D;
     border-color: #36422D;
     text-decoration: none;
+    border:none;
 }
 
-.btn-primary:hover {
+
+.btn-primary:hover{
     opacity: 0.7;
     background-color: #36422D;
-    border-color: #36422D;
+    color: #FFF;
     text-decoration: none;
+    border-color:#36422D;
 }
+
+.btn-primary:visited {
+    background-color: #36422D;
+}
+
 
 .btn {
     display: inline-block;
@@ -168,3 +181,4 @@
     border-radius: .25rem;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
+
